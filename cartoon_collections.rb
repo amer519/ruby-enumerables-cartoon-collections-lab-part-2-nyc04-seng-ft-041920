@@ -11,7 +11,7 @@ end
 end
 
 def long_planeteer_calls(planeteer_calls)
-   planeteer_calls.map do |any|
+   planeteer_calls.any? do |any|
     any.length > 4
 end
 end
