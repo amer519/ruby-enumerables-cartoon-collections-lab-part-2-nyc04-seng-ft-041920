@@ -22,6 +22,8 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.each do |call|
    valid_calls.each do |call2|
      if call == call2
-       return
+       return call
+     end
+   end
   end
 end
